@@ -1,0 +1,4 @@
+Login : username = admin
+	password = 1234
+
+UI/UX design : https://www.figma.com/design/9JN9a5pAcHTTwB6ObLyDyz/Untitled?node-id=0-1&t=EIDCcg4wNrHLude0-1

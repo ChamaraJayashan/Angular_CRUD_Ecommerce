@@ -1,0 +1,151 @@
+/* General Styles */
+.panel {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+  }
+  
+
+  .row {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+
+  .card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  .card:hover {
+    transform: scale(1.05); /* Zoom effect */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+}
+  
+  .card-header {
+    border-bottom: 1px solid #ddd;
+    padding: 15px;
+    font-weight: bold;
+    color: #f5ecec;
+    border-radius: 10px 10px 0 0;
+    text-align: center; 
+    font-size: 24px;
+  }
+  
+  .card-header {
+    background-color: #797b7e;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-img-top {
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+    height: auto;
+    
+  }
+  
+  
+  .card-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .card-text {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  .card a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .card a.btn-primary {
+    background-color: #007bff;
+    border: none;
+  }
+  
+  .card a.btn-danger {
+    background-color: #dc3545;
+    border: none;
+  }
+  
+  .card a.btn {
+    padding: 8px 15px;
+    font-size: 14px;
+    border-radius: 5px;
+  }
+  
+ 
+  .btn {
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    opacity: 0.9;
+  }
+  
+  .btn-success {
+    background-color: #28a745;
+    border: none;
+    color: white;
+  }
+  
+  .btn-danger:hover {
+    background-color: #c82333;
+  }
+  
+  .btn-success:hover {
+    background-color: #218838;
+  }
+  
+  .text-end {
+    text-align: end;
+  }
+  
+
+  input.form-control, 
+  textarea.form-control, 
+  select.form-select {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  textarea.form-control {
+    resize: none;
+  }
+  
+  input:focus, 
+  textarea:focus, 
+  select:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 3px rgba(0, 123, 255, 0.5);
+  }
+  
+
+  .pt-2 {
+    padding-top: 10px;
+  }
+  
+  .mx-2 {
+    margin: 0 8px;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
